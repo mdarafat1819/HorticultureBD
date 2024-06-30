@@ -1,6 +1,6 @@
-import { CiShoppingCart, CiSearch, CiLogin } from "react-icons/ci";
 import { FaCartPlus, FaSignInAlt, FaSearch} from "react-icons/fa";
 import './Navbar.css';
+
 function NavBar() {
 
     return <>

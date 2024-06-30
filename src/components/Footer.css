@@ -1,0 +1,76 @@
+footer {
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer {
+    padding: 5em 2em;
+    flex: 1;
+    font-size: .8em;
+}
+footer h2 {
+    font-size: 1.3em;
+}
+#subscriber_container {
+    display: flex;
+    width: fit-content;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: .5em auto;
+}
+#subscriber_container button {
+    padding: .3em .5em;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+}
+#subscriber_container input{
+    height: 100%;
+    background-color: #000;
+    border-radius: 5px;
+    border: none;
+    padding: .3em .5em;
+    caret-color: green;
+    outline: none;
+}
+.input-icon {
+    font-size: 1.5em;
+}
+address {
+    line-height: 1.5em;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer li {
+    margin-left: 0;
+    list-style-type: none;
+    padding: .2em 0;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.bottom-nav {
+    background-color: rgb(21, 37, 51);
+    color: white;
+    font-size: small;
+    padding: .5em;
+    text-align: center;
+}
+.bottom-nav a {
+    text-decoration: none;
+    color: rgb(234, 242, 248);
+}
+.bottom-nav .blank {
+    padding: 1em 2em;
+}
