@@ -1,0 +1,30 @@
+.our-commitment {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.our-commitment-icon-container {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    background-color: #c1c1c1;
+    border-radius: 50%; 
+}
+.our-commitment-icon {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}

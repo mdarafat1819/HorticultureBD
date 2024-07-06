@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
 import './Slider.css';
+import ArrowButton from "./ArrowButton";
 
 function Slider() {
     const images = [
@@ -48,19 +49,17 @@ function Slider() {
         <>
             <div className="slideshow-container">
                 {images.map((image, index) => {
-                    return <div className="slides fade">
+                    return <div className="slides fade" key={index}>
                         <img src={image} />
                     </div>
                 })}
-
-                <a className="prev" onClick={() => slideIndexUpdate(slideIndex - 1)}>❮</a>
-                <a className="next" onClick={() => slideIndexUpdate(slideIndex + 1)}>❯</a>
-
+                <ArrowButton direction={"left"} handler = {() => slideIndexUpdate(slideIndex - 1)} />
+                <ArrowButton direction={"right"} handler={() => slideIndexUpdate(slideIndex + 1)} />
                 <div className="dot-container">
                     {
                         images.map(
                             (_, index) => {
-                                return <span className="dot" onClick={() => {
+                                return <span className="dot" key={index} onClick={() => {
                                     console.log(index);
                                     slideIndexUpdate(index + 1);
                                 }}></span>

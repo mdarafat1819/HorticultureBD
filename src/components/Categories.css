@@ -1,0 +1,27 @@
+.categories__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.categories__item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;;
+}
+.categories__item:hover {
+    background-color: green;
+    color: white;
+
+}
+.categories__icon {
+    font-size: 80px;
+}
+.categories__description {
+    font-size: 15px;
+}
