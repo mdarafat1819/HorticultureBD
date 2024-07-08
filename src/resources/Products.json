@@ -4,77 +4,77 @@
         "age" : "১ বছর",
         "height" : "১ মিটার",
         "price" : "২০০",
-        "image" : "/src/resources/images/amrapali-mango-plant.jpg"
+        "image" : "./src/resources/images/amrapali-mango-plant.jpg"
     },
     {
         "name" : "আমড়া গাছের চারা",
         "age" : "১ বছর",
         "height" : "১.৫ মিটার",
         "price" : "২৫০",
-        "image" : "/src/resources/images/amra-plant.jpg"
+        "image" : "./src/resources/images/amra-plant.jpg"
     },
     {
         "name" : "কামরাঙা গাছের চারা",
         "age" : "১.৫ বছর",
         "height" : "২ মিটার",
         "price" : "৫০০",
-        "image" : "/src/resources/images/kamranga-plant.jpg"
+        "image" : "./src/resources/images/kamranga-plant.jpg"
     },
     {
         "name" : "রাজশাহী লিচু গাছের চারা",
         "age" : "১.৫ বছর",
         "height" : "১ মিটার",
         "price" : "৩০০",
-        "image" : "/src/resources/images/rajshahi-litchi.jpg"
+        "image" : "./src/resources/images/rajshahi-litchi.jpg"
     },
     {
         "name" : "চাইনিজ কমলা গাছের চারা",
         "age" : "১.২ বছর",
         "height" : "১.৫ মিটার",
         "price" : "৭০০",
-        "image" : "/src/resources/images/chinese-orange-plant.jpg"
+        "image" : "./src/resources/images/chinese-orange-plant.jpg"
     },
     {
         "name" : "কাঁঠাল গাছের চারা",
         "age" : "১.৫ বছর",
         "height" : ".৫ মিটার",
         "price" : "১৫০",
-        "image" : "/src/resources/images/jackfruit-plant.jpg"
+        "image" : "./src/resources/images/jackfruit-plant.jpg"
     },
     {
         "name" : "কেরালা নারিকেল গাছের চারা",
         "age" : "১.৫ বছর",
         "height" : ".৫ মিটার",
         "price" : "৬০০",
-        "image" : "/src/resources/images/kerala-coconut-plant.jpg"
+        "image" : "./src/resources/images/kerala-coconut-plant.jpg"
     },
     {
         "name" : "কাজী পেয়ারা গাছের চারা",
         "age" : "১.৫ বছর",
         "height" : ".৫ মিটার",
         "price" : "২৬০",
-        "image" : "/src/resources/images/kazi-guava-plant.jpg"
+        "image" : "./src/resources/images/kazi-guava-plant.jpg"
     },
     {
         "name" : "চম্পা কলা গাছের চারা",
         "age" : "১.৫ বছর",
         "height" : ".৫ মিটার",
         "price" : "৪০০",
-        "image" : "/src/resources/images/chompa-banana-plant.jpg"
+        "image" : "./src/resources/images/chompa-banana-plant.jpg"
     },
     {
         "name" : "থাই পেয়ারা গাছের চারা",
         "age" : "২ বছর",
         "height" : "১.৫ মিটার",
         "price" : ".৬০০",
-        "image" : "/src/resources/images/thai-guava-plant.jpg"
+        "image" : "./src/resources/images/thai-guava-plant.jpg"
     },
     {
         "name" : "থাই পেয়ারা গাছের চারা - 2",
         "age" : "২ বছর",
         "height" : "১.৫ মিটার",
         "price" : ".৬০০",
-        "image" : "/src/resources/images/thai-guava-plant.jpg"
+        "image" : "./src/resources/images/thai-guava-plant.jpg"
     }
 
 ]
