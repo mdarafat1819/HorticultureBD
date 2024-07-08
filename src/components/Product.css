@@ -36,3 +36,7 @@
     width: 100%;
     padding: 10px;
 }
+
+.product__goto-cart-btn {
+    background-color: rgb(152, 187, 175);
+}

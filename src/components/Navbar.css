@@ -52,3 +52,21 @@ button:hover {
 .icon {
     margin-right: .5em;
 }
+.cart {
+    position: relative;
+}
+.cart__item-counter {
+    position: absolute;
+    background-color: red;
+    top: -10px;
+    right: -10px;
+    font-size: 25px;
+    font-weight: bold; 
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+
+}
