@@ -4,18 +4,21 @@
 .site-name {
     font-size: 2em;
     font-weight: bold;
+    padding: 0;
+    color: black;
 }
 nav {
     margin: 0;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     background-color: #fff;
     border-bottom: 1px solid #e7e7e7;
-    padding: 1em;
     gap: 1em;
+    padding: .5em;
 }
 nav a {
     text-decoration: none;
+    width: fit-content;
 }
 .search-container {
     display: flex;
@@ -23,7 +26,6 @@ nav a {
     justify-content: center;
 }
 .search-container input {
-   
     flex: 1;
     max-width: 500px;
     padding: 6px 16px;
@@ -31,7 +33,7 @@ nav a {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
-    height: 100%;
+
 }
 button {
     border-radius: 5px;
@@ -54,6 +56,12 @@ button:hover {
 }
 .cart {
     position: relative;
+}
+#cart_btn {
+    height: 100%;
+}
+.cart * {
+    cursor: pointer;
 }
 .cart__item-counter {
     position: absolute;

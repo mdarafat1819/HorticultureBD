@@ -1,0 +1,63 @@
+.order {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.order__header{
+    background-color: #a8a7a5;
+    padding: 8px;
+    margin: 2px 0;
+    font-size: 16px;
+}
+.order__items {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.order__subtotal-price {
+    text-align: right;
+    padding: 15px;
+}
+
+.order__address {
+    background-color: #d9d9d9;
+}
+.order__address-text {
+    padding: 25px;
+}
+
+.order__address button {
+    width: 100%;
+    padding-top: 10px;
+    background-color: #a8a7a5;
+    border-radius: 0;
+}
+.order__place-order-btn-container {
+    padding: 15px;
+    text-align: center;
+    flex: none;
+    width: 100%;
+}
+.order__place-order-btn-container button{
+    background-color: green;
+}
+.order__place-order-btn-container button:hover {
+    background-color: red;
+    color: black;
+}
+
+.order__checkout-summery {
+    margin-top: 5px;
+    padding: 20px;
+    background-color: #d9d9d9;
+}
+.order__advertise {
+    background-color: #d9d9d9;
+    margin-top: 5px;
+    padding: 20px;
+}
+.order__checkout-summery table {
+    width: 100%;
+}

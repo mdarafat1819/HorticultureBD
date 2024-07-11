@@ -1,0 +1,67 @@
+.cart-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #d9d9d9;
+}
+
+.cart-product__image {
+    height: 120px;
+    width: 100px;
+    border-radius: 5px;
+}
+.cart-product__details {
+    padding-left: 15px;
+}
+.cart-product__farm-name {
+    font-size: small;
+    font-weight: normal;
+}
+.cart-product__remove-btn {
+    background-color: #d9d9d9;
+    font-size: 25px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.cart-product__remove-btn:hover {
+    color: red;
+    background-color: #d9d9d9;
+    
+}
+
+.cart-product__counter-btns {
+    display: flex;
+    margin: 10px;
+    border: 1px solid #747474;
+    border-radius: 5px;
+    font-size: 20px;
+    height: fit-content;
+}
+
+.cart-product__increment-btn,
+.cart-product__decrement-btn {
+    background-color: #d9d9d9;
+    padding: 0 10px;
+    /* border: 1px solid #b7b7b7; */
+    cursor: pointer;
+    outline: none;
+}
+
+.cart-product__increment-btn {
+    border-radius: 0px 5px 5px 0;
+}
+
+.cart-product__decrement-btn {
+    border-radius: 5px 0 0 5px;
+
+}
+
+.cart-product__total-items {
+    background-color: white;
+    padding: 0 15px;
+}
+

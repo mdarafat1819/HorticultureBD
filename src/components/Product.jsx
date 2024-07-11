@@ -2,10 +2,13 @@ import { FaRegStar } from "react-icons/fa";
 import { FaBangladeshiTakaSign } from "react-icons/fa6";
 
 import './Product.css';
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { CartContext } from "./Context";
 
-function Product({item, handler}) {
+function Product({item}) {
     const [isAddedToCart, setIsAddedToCart] = useState(false);
+    const {_, cartItemHandler} = useContext(CartContext);
+
     return (
         <div className="product">
             <img src={item.image}  className="product__image"/>
@@ -21,7 +24,7 @@ function Product({item, handler}) {
                 <button type="submit" className="product__cart-btn" 
                 onClick={() => {
                     console.log(item.key);
-                    handler(item);
+                    cartItemHandler(item);
                     setIsAddedToCart(true);
                 }}
                 >Add To Cart</button>

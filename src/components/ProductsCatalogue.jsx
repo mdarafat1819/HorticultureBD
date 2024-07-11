@@ -52,7 +52,7 @@ function ProductsCatalogue(props) {
             <div className="products">
                 {
                     products.map((item, index) => {
-                        return <Product item={item} key={index} handler={props.handler}></Product>
+                        return <Product item={item} key={index}></Product>
                     })
                    
                 }

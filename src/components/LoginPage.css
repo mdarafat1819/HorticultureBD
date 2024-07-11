@@ -1,0 +1,78 @@
+form {
+    margin: 20px auto;
+    max-width: 800px;
+}
+.login-form {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+.login-form button, .login-form input, .login-form a{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.login-form button:hover, .login-form input:hover, .login-form a:hover {
+    opacity: 1;
+}
+.login-form input {
+    background-color: white;
+}
+
+.login-form__fb-btn {
+    background-color: #3B5998;
+    color: white;
+}
+.login-form__x-btn {
+    background-color: #55ACEE;
+  color: white;
+}
+.login-form__google-btn {
+    background-color: #dd4b39;
+  color: white;
+}
+.login-form__login-btn {
+    background-color:rgb(143, 87, 19);
+    color: white;
+}
+.login-form__column {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.login-form__vl {
+    position: relative;
+    border: 2px solid #ddd;
+    margin: 0px 30px;
+    width: 0;
+}
+.login-form__vl-inner-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+@media (max-width: 600px) {
+    .login-form {
+        flex-direction: column;
+    }
+    .login-form__column {
+        width: 100%;
+    }
+    .login-form__vl {
+        width: 100%;
+        margin: 30px 0;
+    }
+}
