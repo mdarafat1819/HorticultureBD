@@ -1,5 +1,6 @@
 import { GiFlowerEmblem,GiFruitTree,GiPalmTree,GiBonsaiTree,GiBurningTree} from "react-icons/gi";
 import { FaAppleAlt } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 import './Categories.css';
 import CatalogueHeader from './CatalogueHeader';
@@ -32,13 +33,17 @@ function Categories() {
             description: "ছাদ বাগান"
         },
     ];
+    const navigate = useNavigate();
+    const viewButtonHandler = () => {
+        navigate("/all-products"); // Navigate to the "About" page
+      };
     return (
         <>
             <div className='categories'>
                 <CatalogueHeader title={"Categories"} description={"Browse By Category"} />
                 <div className='categories__items'>
                     {categories.map((item, index) => {
-                        return <div className="categories__item"> 
+                        return <div className="categories__item" onClick={viewButtonHandler}> 
                         {item.icon}
                         <span className="categories__description" >{item.description}</span>
                         </div>

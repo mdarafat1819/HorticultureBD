@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from "react-router-dom";
 
 import './ProductsCatalogue.css';
 import Product from './Product';
@@ -34,6 +35,10 @@ function ProductsCatalogue(props) {
         };
         updateIndex(prev => prev - 5);
     }
+    const navigate = useNavigate();
+    const viewButtonHandler = () => {
+        navigate("/all-products"); // Navigate to the "About" page
+      };
 
     const nextButtonHandler = () => {
         //console.log("Next Button Clicked");
@@ -58,7 +63,7 @@ function ProductsCatalogue(props) {
                 }
             </div>
             <div className='view-all-btn'>
-            <button type="submit">View All</button>
+            <button type="submit" onClick={viewButtonHandler}>View All</button>
             </div>
             <ArrowButton direction={"right"} handler={nextButtonHandler}/>
             <ArrowButton direction={"left"} handler={prevButtonHandler} />

@@ -1,0 +1,7 @@
+.all-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-produtcs-container {
+    margin: 15px;
+}

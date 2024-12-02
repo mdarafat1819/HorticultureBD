@@ -1,0 +1,13 @@
+.order-confirm {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+}
+.order-confirm__confirm-btn-container {
+    flex: none;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
